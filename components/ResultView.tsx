@@ -173,7 +173,9 @@ const ResultView: React.FC<Props> = ({ result, onReset, userEmail }) => {
                 <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
                   <h3 className="text-3xl font-black text-slate-900 pr-4">الملخص التنفيذي</h3>
                   <button onClick={handleToggleSpeech} className={`flex items-center gap-3 px-8 py-4 rounded-2xl transition-all font-black text-sm shadow-xl ${isReading ? 'bg-red-500 text-white animate-pulse' : 'bg-blue-600 text-white hover:bg-blue-700 shadow-blue-200 hover:-translate-y-1'}`}>
-                    <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">{isReading ? <path d="M6 18L18 6M6 6l12 12"/> : <path d="M11 5L6 9H2v6h4l5 4V5zm4.54 3.46a5 5 0 0 1 0 7.07"/></svg>
+                    <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                      {isReading ? <path d="M6 18L18 6M6 6l12 12" /> : <path d="M11 5L6 9H2v6h4l5 4V5zm4.54 3.46a5 5 0 0 1 0 7.07" />}
+                    </svg>
                     {isReading ? 'إيقاف الاستماع' : 'استمع للملخص'}
                   </button>
                 </div>
