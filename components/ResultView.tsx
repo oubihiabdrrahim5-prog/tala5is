@@ -74,7 +74,7 @@ const ResultView: React.FC<Props> = ({ result, onReset, userEmail }) => {
       // @ts-ignore
       const canvas = await html2canvas(exportRef.current, { scale: 2, useCORS: true, backgroundColor: '#fafbff' });
       const link = document.createElement('a');
-      link.download = `تلاخيصي_${result.title}.png`;
+      link.download = `تلاخيص_${result.title}.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
     } catch (error) { console.error(error); } finally { setIsExporting(false); }
@@ -93,7 +93,7 @@ const ResultView: React.FC<Props> = ({ result, onReset, userEmail }) => {
       const pdfWidth = pdf.internal.pageSize.getWidth();
       const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
       pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
-      pdf.save(`تلاخيصي_${result.title}.pdf`);
+      pdf.save(`تلاخيص_${result.title}.pdf`);
     } catch (error) { console.error(error); } finally { setIsExporting(false); }
   };
 

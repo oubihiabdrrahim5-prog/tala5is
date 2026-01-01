@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ user, onAuthClick, onLogout, onGoHome, 
           <div className="gradient-btn p-2.5 rounded-xl shadow-lg shadow-blue-200 group-hover:scale-110 transition-transform">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M8 7h6"/><path d="M8 11h8"/><path d="M8 15h6"/></svg>
           </div>
-          <h1 className="text-xl font-black tracking-tight text-slate-800">تلاخيصي</h1>
+          <h1 className="text-xl font-black tracking-tight text-slate-800">تلاخيص</h1>
         </div>
         
         <nav className="hidden md:flex items-center gap-8">

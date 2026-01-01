@@ -309,7 +309,7 @@ const App: React.FC = () => {
              <div className="bg-blue-600 p-4 rounded-3xl text-white shadow-xl">
                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
              </div>
-             تلاخيصي
+             تلاخيص
           </div>
           <p className="text-slate-500 font-bold mb-12 text-xl max-w-md mx-auto">الذكاء الاصطناعي في خدمة مستقبلك الدراسي وتفوقك.</p>
           <div className="h-px w-40 bg-slate-200 mx-auto mb-12"></div>

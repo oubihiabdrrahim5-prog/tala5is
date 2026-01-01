@@ -88,7 +88,7 @@ const FeedbackSection: React.FC<Props> = ({ user, onAuthRequired }) => {
                   disabled={!user}
                   value={feedback}
                   onChange={(e) => setFeedback(e.target.value)}
-                  placeholder="ما الذي تود رؤيته في تلاخيصي مستقبلاً؟"
+                  placeholder="ما الذي تود رؤيته في تلاخيص مستقبلاً؟"
                   className="w-full h-48 p-8 bg-white border-2 border-slate-100 rounded-[2.5rem] focus:border-blue-500 outline-none transition-all font-bold text-slate-800 resize-none shadow-sm text-lg leading-relaxed placeholder:text-slate-300"
                 />
                 {user && (
