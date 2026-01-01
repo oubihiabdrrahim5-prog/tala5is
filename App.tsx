@@ -313,7 +313,7 @@ const App: React.FC = () => {
           </div>
           <p className="text-slate-500 font-bold mb-12 text-xl max-w-md mx-auto">الذكاء الاصطناعي في خدمة مستقبلك الدراسي وتفوقك.</p>
           <div className="h-px w-40 bg-slate-200 mx-auto mb-12"></div>
-          <p className="text-slate-400 text-sm font-black uppercase tracking-[0.5em]">© 2025 Talakhisi AI - Built by Abdo</p>
+          <p className="text-slate-400 text-sm font-black uppercase tracking-[0.5em]">© 2025 Talakhisi AI - Built by Abdrrahim Oubihi</p>
         </div>
       </footer>
     </div>
